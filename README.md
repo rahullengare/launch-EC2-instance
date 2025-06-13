@@ -59,11 +59,16 @@ It includes creating a key pair, setting up a security group, launching the inst
 3. then Click on Connect Option 
 4. Click on **SSH client**
 5. see write here example that is you key
+
+```bash
+ssh -i "pem-server-key.pem" ec2-user@172.31.27.189
+```
+
 6. key copy now
 7. private key store in your local machine to open git bash here
 8. now open terminal Linux 
 9. paste your SSH key & Run it
-10. Now done your instance launch 
+10. Now done your instance launch
 
 ### Step 4: Terminating Your instance
 
