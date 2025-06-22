@@ -33,6 +33,7 @@ It includes creating a key pair, setting up a security group, launching the inst
 1. Go to AWS Console login it
 2. Search EC2 instance in Search Box 
 3. click on EC2 service
+![Project Screenshot](/images/aws-console.jpg)
 
 ### Step 2: Creating EC2 instance
 
