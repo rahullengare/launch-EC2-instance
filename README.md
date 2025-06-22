@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/902c6e76-23fd-4e81-8cd5-a34ba897ff78)# Launch EC2 instance (Linux)
+# Launch EC2 instance (Linux)
 
 EC2 → Elastic Compute Cloud
 
