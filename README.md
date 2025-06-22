@@ -1,4 +1,4 @@
-# Launch EC2 instance (Linux)
+![image](https://github.com/user-attachments/assets/902c6e76-23fd-4e81-8cd5-a34ba897ff78)# Launch EC2 instance (Linux)
 
 EC2 → Elastic Compute Cloud
 
@@ -33,6 +33,7 @@ It includes creating a key pair, setting up a security group, launching the inst
 1. Go to AWS Console login it
 2. Search EC2 instance in Search Box 
 3. click on EC2 service
+
 ![Project Screenshot](/images/aws-console.jpg)
 
 ### Step 2: Creating EC2 instance
@@ -53,6 +54,12 @@ It includes creating a key pair, setting up a security group, launching the inst
 8. **Summary**
     - you can how many same instance launch that are mentation here → 1
 
+![Project Screenshot](/images/launch-instance.jpg)
+![Project Screenshot](/images/launch-instance1.jpg)
+![Project Screenshot](/images/launch-instance2.jpg)
+![Project Screenshot](/images/launch-instance3.jpg)
+![Project Screenshot](/images/run-instance.jpg)
+
 ### Step 3: **Connecting to an Instance via SSH**
 
 1. Click on instance **tab**
@@ -65,11 +72,15 @@ It includes creating a key pair, setting up a security group, launching the inst
 ssh -i "pem-server-key.pem" ec2-user@172.31.27.189
 ```
 
+![Project Screenshot](/images/ssh-key.jpg)
+
 6. key copy now
 7. private key store in your local machine to open git bash here
 8. now open terminal Linux 
 9. paste your SSH key & Run it
 10. Now done your instance launch
+
+![Project Screenshot](/images/connect-instance.jpg)
 
 ### Step 4: Terminating Your instance
 
@@ -79,3 +90,5 @@ ssh -i "pem-server-key.pem" ec2-user@172.31.27.189
 4. Click on Instance state 
 5. Choose **Terminate (delete) instance**
 6. Now click delete
+
+![Project Screenshot](/images/delete-instance.jpg)
